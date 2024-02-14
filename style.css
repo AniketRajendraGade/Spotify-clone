@@ -1,0 +1,105 @@
+.body{
+    background-color: bisque;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 90px;
+    background-color: black;
+    color: white;
+    padding: 0 12px;
+    
+}
+
+.logo img{
+    width: 90px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+nav ul li{
+    padding: 30px;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 95vh;
+    border-radius: 15px;
+}
+
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.icon{
+    margin-top: 15px;
+    
+   
+}
+
+#progresbar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+
+.item img {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    
+    
+}
+.item{
+    text-align: center;
+    float: left;
+}
+
+.time{
+    margin: 0 10px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    height: 30px;
+    padding-top: 10px;
+} 
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.7s ease-in;
+}
+
+nav ul h3{
+    padding: 900px;
+}
+
+
+
+
